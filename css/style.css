@@ -1,0 +1,336 @@
+/*
+Author:Razon;
+Mailling-Address:razonahmed63@gmail.com;
+*/
+
+/*
+INDEX
+1.Header
+2.Fusce at
+3.Facilisis
+4.Ante donec
+5.Blandit rhoncus
+6.placerat
+7.footer
+
+
+*/
+/* Global CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.cstm-btn{
+    background: #ffffff;
+    color: #612316;
+    padding: 10px 32px;
+    margin:0 auto;
+    display: block;
+    border: none;
+    border-radius:50px;
+    
+}
+
+.read-btn{
+    
+}
+.no-padding{
+    padding: 0px;
+}
+
+h3{
+    color: #fff;
+    margin: 10px 0px;
+}
+h6{
+    color: #fff;
+    margin: 10px 0px;
+    font-size:18px;
+}
+
+/* THEME CSS*/
+
+
+/*Header section*/
+.nav-head{
+   background: #edeff1!important;
+    padding: 25px 0px;
+}
+
+.nav-link{
+    color: #31353e;
+    
+}
+.nav-item{
+    margin: 0px 10px;
+}
+.nav-link.js-scroll-trigger.active{
+   background: #dd4b2b;
+    color: #fff;
+    border-radius: 25px;
+    padding: 7px 28px;
+}
+/* hero */
+
+.hero{
+    width: 100%;
+    float: left;
+    padding:100px 0px;
+    background-image: url(../img/bannar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hero-title{
+    padding-top: 320px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.hero-title h2{
+    font-size: 57px;
+    color: #fff;
+   
+}
+.hero-title h4{
+    font-size:27px;
+    color: #fff;
+}
+
+/* Close hero section */
+
+/* Menu Item */
+
+.food-item{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.menu-item{
+   padding-top: 192px; 
+    
+}
+.menu{
+    background: #edeff1;
+    text-align: center;
+}
+.menu h3{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.menu h6{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 35px;
+    
+}
+
+/* CLOSE MENU ITEM */
+
+
+/* NEWS LETTER */
+
+.newsletter{
+    background-image: url(../img/last%20img%20.......1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    height: 385px;
+    text-align: center;
+   
+    
+}
+.newsletter h2{
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-bottom: 22px;
+    
+    
+    
+}
+.newsletter p{
+    color:#f3f1f2;
+    font-size: 12px;
+    text-align: justify;
+}
+.form-control{
+  border-radius: 20px; 
+    position: relative;
+    height: 45px;
+    background: transparent;
+} 
+
+ input::placeholder{
+    color:#fff!important;
+}
+
+.submit-btn{
+    background: #ffffff;
+    color: #612316;
+    padding: 10px 32px;
+    margin:0 auto;
+    display: block;
+    border: none;
+    border-radius:50px;
+    position: absolute;
+    right:2%;
+    bottom:0px;
+    border: 1px solid orange;
+}
+
+/* CLOSE NWESLETTER SECTION */
+
+
+
+/* DOUBLE */
+
+.double h2{
+    padding-top: 120px;
+    padding-bottom: 35px;
+}
+.double h6{
+    color: #000;
+    font-size: 20px;
+    font-weight: 380;
+    letter-spacing:1px;
+    line-height:30px;
+    
+}
+.double h6 span{
+    padding-top: 45px;
+    font-size: 10px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.double-btn{
+    background:#dd4b2b;
+    color:#fff;
+    padding: 10px 32px;
+    margin:0 auto;
+    display: block;
+    border: none;
+    border-radius:50px;
+}
+.double img{
+    padding-top: 150px;
+    padding-left: 30px;
+}
+
+.img-food{
+    padding-top:50px;
+    padding-right: 30px;
+}
+.double-btn1{
+    background:#4b4e73;
+    color:#fff;
+    padding: 10px 32px;
+    margin:0 auto;
+    display: block;
+    border: none;
+    border-radius:50px;
+}
+/* CLOSE DOUBLE SECTION */
+
+
+/* LAST */
+
+.last{
+    background: #d75d0e;
+    text-align: center;
+    
+}
+.last ul{
+    padding-top: 95px;
+    padding-bottom:90px;
+    
+}
+.last ul li{
+    text-decoration: none;
+    color: #fff;
+    line-height:25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.lastpart{
+    background-image: url(../img/last%20img%20.......1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lastpart p{
+    color: #fff;
+    text-align: justify;
+    padding-top: 90px;
+    padding-bottom: 145px;
+}
+
+/* CLOSE LAST PART */
+
+
+/* START MEDIA SECTION THAT IS HELP TO RESPONSIVE OUR WEBSITE PROPERLY */
+
+/* small device */
+
+@media (min-width: 500.01px) and (max-width: 768px){
+
+    .hero-title h2{
+    font-size:36px;
+    color:#fff;
+   
+}
+    .last ul{
+    padding-top:65px;
+    padding-bottom:60px;
+    
+}
+    .lastpart p{
+    color: #fff;
+    text-align: justify;
+    padding-top:60px;
+    padding-bottom:70px;
+}
+    
+}
+
+/* medium device */
+
+@media (min-width: 768.01px) and (max-width: 992px){
+.hero-title h2{
+    font-size:37px;
+    color:#fff;
+   
+}
+    .last ul{
+    padding-top:75px;
+    padding-bottom:70px;
+    
+}
+}
+
+
+/* desktop device */
+
+@media (min-width: 992.01px) and (max-width: 1200px){
+
+    .hero-title h2{
+    font-size:50px;
+    color:#fff;
+   
+}
+    .last ul{
+    padding-top:85px;
+    padding-bottom:80px;
+    
+}
+}
+
+/* large device */
+
+@media (min-width: 1200.01px) {
+
+}
